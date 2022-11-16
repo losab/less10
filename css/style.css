@@ -1,0 +1,262 @@
+.container {
+    max-width:1089px;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+.container a:visited {
+    color: #fff;
+}
+.flex-header {
+    display: flex;
+    justify-content: space-between; 
+   
+}
+.nav-ul {
+    display: flex;
+   
+}
+.nav-ul li {
+    margin-right: 49px; 
+}
+.nav-ul li:last-child {
+    margin-right: 0;
+}
+.header {
+    background-image :url(../images/Group\ 72.png) ;
+    height: 324px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bar {
+    display: none;
+    color: #fff;
+}
+.about {
+    color: #fff;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+.about h3 {
+    font-size: 42px;
+}
+.home {
+    display: flex;
+}
+.home h4 {
+    padding-top: 30px;
+    padding-right: 30px;
+}
+/*map*/
+.map {
+    background-color: #121212;
+   max-width: 1088px;
+    height: 286px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.iframe {
+    width: 100%;
+    height: 100%;
+}
+/*form*/
+.form {
+    max-width: 1088px;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+.contact h3 {
+    color:#5863F8;
+    font-weight: bold;
+} 
+.contact p {
+    width: 378px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.container-form {
+    max-width: 100%;
+    height: 388px;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    width: 680px;
+    
+}
+.right {
+    width: 362px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subject {
+    height: 55px;
+}
+.subject-radio {
+    width: 100%;
+    height: 60px;
+    font-size: 13px;
+    background-color:#F8F8F8;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: 2px inset #E8E8E8;
+}
+.subject-radio p {
+    padding-top: 10px;
+}
+.radio {
+    display: flex;
+    padding-top: 10px;
+}
+.container {
+    margin-top: -10px;
+}
+.age {
+    width: 200px;
+}
+.subject-confirm {
+    height: 60px;
+    font-size: 18px;
+    background-color:#F8F8F8;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: 2px inset #E8E8E8;
+    display: flex;
+    align-items: center;
+}
+input {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background-color:#F8F8F8;
+    border-radius: 10px;
+    color:#5863F8;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-color: #E8E8E8;
+}
+.checkbox {
+    width: 50px;
+}
+button {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    background-color:#5863F8;
+    font-size: 20px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.send{
+    padding-right: 10.4px;
+}
+/*contact-info*/
+.contact-info {
+    max-width: 1088px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.info {
+     width: 31%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 50px;
+     padding: 0 10px;
+}
+.info h4 {
+    padding-top: 15px;
+}
+.blue {
+    width: 59px;
+    height: 58px;
+    background-color: #5863F8; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mailto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+}
+.mailto a:visited{
+    color: #B1B1B1;
+}
+/*photos*/
+.image-wr {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.photos {
+    width: 100%;
+    margin: auto;
+}
+.text {
+    max-width: 1088px;
+    margin:0 auto;
+}
+.text h3 {
+    color: #5863F8;
+    font-weight: bold;
+    margin-top: 90px;
+}
+.text p {
+    font-size: 42px;
+    width: 565px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+/*footer*/
+.footer {
+    max-width: 100%;
+    background-color: #121212;
+}
+.footer-bl a:visited {
+    color: #fff;
+    
+}
+.footer-container {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin:0 5%;
+}
+.footer {
+    padding: 90px 0 40px 0;
+}
+.footer-bl {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.footer-bl p {
+    width: 260px;
+    padding-bottom: 20px;
+}
+.copyright {
+    color:#fff;
+    margin-left: 5%;
+    padding-top: 60px;
+}
+.footer-bl h3 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.footer-bl ul {
+    color: #5863F8;
+}
+.footer-bl ul li {
+    padding: 10px;
+}
