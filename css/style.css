@@ -64,7 +64,9 @@
 .form {
     max-width: 1088px;
     margin: 0 auto;
-    margin-top: 56px;
+}
+.contact {
+    padding: 36px 0;
 }
 .contact h3 {
     color:#5863F8;
@@ -110,9 +112,6 @@
 .radio {
     display: flex;
     padding-top: 10px;
-}
-.container {
-    margin-top: -10px;
 }
 .age {
     width: 200px;
